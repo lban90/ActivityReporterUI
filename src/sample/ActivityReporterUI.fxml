@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="596.0" prefWidth="876.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextArea fx:id="tAfisare" layoutX="404.0" layoutY="14.0" prefHeight="571.0" prefWidth="461.0" promptText="TEXT AREA">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TextArea>
+      <Label fx:id="lNume" layoutX="14.0" layoutY="30.0" text="Nume:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tNume" layoutX="91.0" layoutY="28.0" prefHeight="31.0" prefWidth="291.0" promptText="Numele de familie" />
+      <TextField fx:id="tPrenume" layoutX="91.0" layoutY="68.0" prefHeight="31.0" prefWidth="291.0" promptText="Prenumele" />
+      <Label fx:id="lPrenume" layoutX="14.0" layoutY="70.0" text="Prenume:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lDataStart" layoutX="14.0" layoutY="110.0" text="Data Start:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lsDay" layoutX="91.0" layoutY="110.0" text="Day:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tsDay" layoutX="129.0" layoutY="108.0" prefHeight="25.0" prefWidth="41.0" promptText="01" />
+      <Label fx:id="lsMonth" layoutX="180.0" layoutY="110.0" text="Month:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tsMonth" layoutX="229.0" layoutY="108.0" prefHeight="25.0" prefWidth="41.0" promptText="01" />
+      <TextField fx:id="tsYear" layoutX="325.0" layoutY="108.0" prefHeight="31.0" prefWidth="56.0" promptText="1990" />
+      <Label fx:id="lsYear" layoutX="282.0" layoutY="110.0" text="Year:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="leYear" layoutX="282.0" layoutY="144.0" text="Year:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="teYear" layoutX="325.0" layoutY="142.0" prefHeight="31.0" prefWidth="56.0" promptText="2014" />
+      <TextField fx:id="teMonth" layoutX="229.0" layoutY="142.0" prefHeight="25.0" prefWidth="41.0" promptText="01" />
+      <Label fx:id="leMonth" layoutX="180.0" layoutY="144.0" text="Month:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="teDay" layoutX="129.0" layoutY="142.0" prefHeight="25.0" prefWidth="41.0" promptText="01" />
+      <Label fx:id="leDay" layoutX="91.0" layoutY="144.0" text="Day:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lDataEnd" layoutX="14.0" layoutY="144.0" text="Data End:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="lAdress" layoutX="14.0" layoutY="185.0" text="ADRESS:" />
+      <TextField fx:id="tAdress" layoutX="91.0" layoutY="181.0" prefHeight="31.0" prefWidth="291.0" promptText="C:\\Users\\a565673\\Documents\\luci\\Rapoarte\\Octombrie\\csvs" text="C:\\Users\\a565673\\Documents\\luci\\Rapoarte\\Octombrie\\csvs" />
+      <Button fx:id="bStart" layoutX="14.0" layoutY="411.0" mnemonicParsing="false" onAction="#Start" prefHeight="44.0" prefWidth="370.0" text="START">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+       <Button fx:id="bChart" layoutX="14.0" layoutY="495.0" mnemonicParsing="false" onAction="#Chart" prefHeight="45.0" prefWidth="370.0" text="CHART">
+           <font>
+               <Font size="20.0" />
+           </font>
+       </Button>
+      <Button fx:id="saveInFile" layoutX="14.0" layoutY="540.0" mnemonicParsing="false" onAction="#saveInFile" prefHeight="45.0" prefWidth="370.0" text="SAVE IN FILE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="addResolvedTickets" layoutX="14.0" layoutY="451.0" mnemonicParsing="false" onAction="#addResolvedTickets" prefHeight="44.0" prefWidth="370.0" text="ADD RESOLVED TICKETS">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="22.0" layoutY="224.0" text="Filipescu Andrei Dorel:" />
+      <Label layoutX="22.0" layoutY="260.0" text="Ban Lucian:" />
+      <Label layoutX="21.0" layoutY="302.0" text="Jinaru Armand:" />
+      <Label layoutX="22.0" layoutY="338.0" text="Szabo Cristina:" />
+      <Label layoutX="24.0" layoutY="376.0" text="Tripa Raul:" />
+      <TextField fx:id="filipescuInchis" layoutX="177.0" layoutY="219.0" prefHeight="31.0" prefWidth="206.0" promptText="0" />
+      <TextField fx:id="banInchis" layoutX="177.0" layoutY="255.0" prefHeight="31.0" prefWidth="206.0" promptText="0" />
+      <TextField fx:id="jinaruInchis" layoutX="177.0" layoutY="297.0" prefHeight="31.0" prefWidth="206.0" promptText="0" />
+      <TextField fx:id="szaboInchis" layoutX="177.0" layoutY="333.0" prefHeight="31.0" prefWidth="206.0" promptText="0" />
+      <TextField fx:id="tripaInchis" layoutX="177.0" layoutY="371.0" prefHeight="31.0" prefWidth="206.0" promptText="0" />
+   </children>
+</AnchorPane>
